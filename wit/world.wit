@@ -1,0 +1,7 @@
+package local:example@1.0.0;
+
+world http-trigger {
+  // Commenting out the wasi-cli import will break things.
+  import wasi:cli/environment@0.2.3;
+  export wasi:http/incoming-handler@0.2.3;
+}

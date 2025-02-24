@@ -1,0 +1,16 @@
+{
+  "name": "cjs-env-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@bytecodealliance/componentize-js": "^0.17.0"
+  }
+}
